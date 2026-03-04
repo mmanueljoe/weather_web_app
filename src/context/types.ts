@@ -5,9 +5,10 @@ export interface WeatherData{
     description: string;
     windSpeed: number;
     rainProbability: number;
-    humility: number;
+    humidity: number;
     uvIndex: number;
     sunrise: string;
+    sunset: string;
     lastUpdated: string;
 }
 

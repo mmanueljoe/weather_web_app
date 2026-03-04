@@ -10,7 +10,7 @@ interface CurrentWeatherCardProps {
   humidity: number;
 }
 
-const CurrentWeatherCard = ({
+export const CurrentWeatherCard = ({
   location,
   temperature,
   feelsLike,
@@ -57,4 +57,3 @@ const CurrentWeatherCard = ({
   );
 };
 
-export default CurrentWeatherCard;

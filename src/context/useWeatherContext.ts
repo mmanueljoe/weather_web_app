@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { WeatherContext } from "./WeatherContext";
 
 
-export const useWeather = () => {
+export const useWeatherContext = () => {
   const ctx = useContext(WeatherContext);
 
   if(!ctx){
