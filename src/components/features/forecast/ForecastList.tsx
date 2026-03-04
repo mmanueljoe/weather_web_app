@@ -24,14 +24,14 @@ export const ForecastList = (
   if (forecast.length === 0) {
     return (
       <div className="text-center py-8">
-        <p className="text-gray-500">No forecast data available</p>
+        <p className="text-blue-100">No forecast data available</p>
       </div>
     );
   }
 
   return (
     <div>
-      <h3 className="text-2xl font-bold mb-4">24-Hour Forecast</h3>
+      <h3 className="text-2xl font-bold mb-4 text-white">24-Hour Forecast</h3>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
         {forecast.map((hour) => (
           <ForecastCard
@@ -47,4 +47,5 @@ export const ForecastList = (
     </div>
   );
 }
+
 

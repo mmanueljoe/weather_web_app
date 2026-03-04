@@ -18,7 +18,7 @@ export const LoadingSpinner = ({message = "Loading", size = "medium"}: LoadingSp
     <div className="flex flex-col items-center justify-center gap-4">
         {/* Spinning circle */}
       <div className={`${sizeClasses[size]} border-4 border-blue-300 border-t-blue-600 rounded-full animate-spin`} />
-      {message && <p className="text-gray-600">{message}</p>}
+      {message && <p className="text-white">{message}</p>}
     </div>
   )
 }
