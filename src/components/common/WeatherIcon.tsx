@@ -3,7 +3,7 @@ interface WeatherIconProps {
     size?: 'small' | 'medium' | 'large';
 }
 
-const WeatherIcon = ({condition, size = "medium"}: WeatherIconProps) => {
+export const WeatherIcon = ({condition, size = "medium"}: WeatherIconProps) => {
     const sizeClasses = {
     small: 'w-8 h-8',
     medium: 'w-16 h-16',

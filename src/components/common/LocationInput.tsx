@@ -6,7 +6,7 @@ interface LocationInputProps {
   placeholder?: string;
 }
 
-const LocationInput = ({
+export const LocationInput = ({
   onSearch,
   isLoading = false,
   placeholder = "Enter a city name...",
