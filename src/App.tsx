@@ -1,12 +1,12 @@
-import { WeatherProvider } from "@/context"
+import { WeatherProvider } from "@/context";
+import { MainContent } from '@/components/MainContent'
 
 function App() {
 
 
   return (
   <WeatherProvider>
-    <h1>Weather App</h1>
-
+    <MainContent />
   </WeatherProvider>
    
   )
